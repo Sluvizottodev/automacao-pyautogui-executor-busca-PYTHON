@@ -6,6 +6,7 @@ pa.PAUSE = 1 # espera 1 seg. entre OPs
 pa.press('win') # press -> pressionar tecla 
 pa.write("chrome") # write -> escrever
 pa.press('ENTER')
+time.sleep(1)
 pa.write("youtube.com")
 pa.press('ENTER')
 time.sleep(2)
@@ -13,7 +14,7 @@ pa.click(x=582, y=114)
 pa.write("lofi girl")
 pa.press('ENTER')
 time.sleep(2)
-pa.click(x=512, y=501)
+pa.click(x=508, y=737)
 
 
 #pyperclip.copy("legião urbana")
