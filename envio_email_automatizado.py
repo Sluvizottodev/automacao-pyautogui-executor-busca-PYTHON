@@ -1,8 +1,10 @@
 import stmplib
 from email.mime.text import MIMEText
+import os
 
 rem = 'luvizottodev@gmail.com'
-senha = 'your_app_password' 
+senha = os.getenv('EMAIL_APP_PASSWORD')
+
 dest = 'stefani292005@gmail.com'
 
 msg = MIMEText('Teste de envio de email automatizado')
