@@ -2,7 +2,7 @@ import pyautogui
 import time
 import os
 
-os.system("Start bloco de notas")
+os.system("Start notepad")
 time.sleep(1)
 
 pyautogui.write("Olá, mundo!", interval=0.05)
